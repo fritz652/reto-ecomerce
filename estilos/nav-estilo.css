@@ -1,0 +1,139 @@
+/* .navbar {
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+} */
+
+/* body{
+  padding:90px 20px 0;
+} */
+
+.header {
+  background-color: aqua; /* eliminar */
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* ocultar */
+
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 30px; /* :::::::::::::::::::::tal vez sea 16px */
+  font-weight: bold;
+  padding: 0 40px;
+  line-height: 80px;
+}
+
+.nav-menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 80px;
+}
+
+.nav-menu-link {
+  padding: 8px 12px;
+}
+
+.nav-menu-link:hover {
+  color: hsl(26, 100%, 55%);
+  transition: 0.5s;
+}
+
+.nav-toggle {
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+  display: none;
+}
+
+.close {
+  display: none;
+}
+
+@media (max-width: 778px) {
+  /* aconsejaria que sea 778px */
+  body {
+    padding: 70px;
+  }
+
+  .header {
+    height: 60px;
+  }
+
+  .logo {
+    font-size: 25px;
+    padding: 0 20px;
+    line-height: 60px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    margin-right: 20px;
+    background-color: rosybrown; /* eliminar  */
+    position: fixed;
+    padding: 0;
+    height: calc(100%);
+    overflow-y: auto;
+    width: 0; /* 80%; */
+    /* left: 10%; */
+    transition: width 0.3s;
+  }
+
+  .nav-menu-item {
+    line-height: 70px;
+  }
+
+  .nav-menu-link:hover {
+    color: hsl(26, 100%, 55%);
+    transition: 0.5s;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .close {
+    display: flex;
+  }
+  .nav-menu_visible {
+    width: 0;
+  }
+}
+
+/* ::::::::::::::::::::::::::::::::::::::::: */
+
+.cart {
+  background: none;
+  border: none;
+  font-size: 30px;
+  list-style: none;
+  /*   line-height: 80px; */
+}
+
+/* 
+@media screen and (max-width: 500px) {
+    .navbar-sn a {
+      display: none;
+      display: block;
+    } */

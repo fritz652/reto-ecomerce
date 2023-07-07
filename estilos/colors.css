@@ -1,0 +1,75 @@
+/* ::::::::::::::LEYENDA::::::::::::: */
+
+/* O........................Orange */
+/* po.........................Pale orange*/
+/* vvb ....................very-vark-blue*/
+/* dgb.....................Dark-grayish-blu */
+/* gb......................Grayish blue */
+/* lgb.....................Light grayish blue */
+/* w.......................White */
+/* b-75....................Black (with 75% opacity for lightbox background) */
+
+/* :::::::::::::COLORES PRIMARIOS::::::::::: */
+.bg-o {
+  background-color: hsl(26, 100%, 55%);
+}
+
+.bg-po {
+  background-color: hsl(25, 100%, 94%);
+}
+
+.c-o {
+  color: hsl(26, 100%, 55%);
+}
+
+.c-po {
+  color: hsl(25, 100%, 94%);
+}
+/* :::::::::::::COLORES NEUTRALES:::::::::::: */
+.bg-vvb {
+  background-color: hsl(220, 13%, 13%);
+}
+
+.bg-dgb {
+  background-color: hsl(219, 9%, 45%);
+}
+
+.bg-gb {
+  background-color: hsl(220, 14%, 75%);
+}
+
+.bg-lgb {
+  background-color: hsl(223, 64%, 98%);
+}
+
+.bg-w {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.bg-b-75 {
+  background-color: hsl(0, 0%, 0%, 0.75);
+}
+
+.c-vvb {
+  color: hsl(220, 13%, 13%);
+}
+
+.c-dgb {
+  color: hsl(219, 9%, 45%);
+}
+
+.c-gb {
+  color: hsl(220, 14%, 75%);
+}
+
+.c-lgb {
+  color: hsl(223, 64%, 98%);
+}
+
+.c-w {
+  color: hsl(0, 0%, 100%);
+}
+
+.b-75 {
+  color: hsl(0, 0%, 0%, 0.75);
+}
